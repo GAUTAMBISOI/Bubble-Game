@@ -1,0 +1,115 @@
+@font-face {
+    font-family: gilroy;
+    src: url(Gilroy-Medium.woff2);
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color: #fff;
+    font-weight: 600;
+   
+}
+html, body{
+    height: 100%;
+    width: 100%;
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #04224bde;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    height: 80%;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+#ctop{
+    padding:0px 30%;
+    height: 100px;
+    width: 100%;
+    background-color: #052b5ca1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.elem{
+    display: flex;
+    align-items: center;
+    margin: 0px 10px;
+    gap: 20px;
+    
+ 
+}
+.elem h2:hover{
+    /* background-color: #0e0d0d; */
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 900;
+    font-size: 20px;
+}
+.box{
+    cursor: pointer;
+    padding: 2px 20px;
+    height: 40px;
+    width: 50px;
+    background-color: #fff;
+    border-radius: 3px;
+    color: #04224bde;
+    font-size: 30px;
+}
+#box2{
+    padding: 0px 15px;
+    width: 52px;
+   
+}
+#Score{
+    padding: 0px 10px;
+    width: 65px;
+}
+#cbottom{
+    padding: 5px 0px;
+    width: 100%;
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+}
+#cbottom h1{
+    color: black;
+    font-size: 5vw;
+}
+#cbottom h1:hover{
+    font-size: 3vw;
+}
+.bubble{
+    margin: 0px 3px;
+    height: 50px;
+    width: 50px;
+    background-color: #052b5ca1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.bubble:hover{
+    background-color: #2e7bdfde;
+    font-weight: 600;
+
+}

@@ -4,8 +4,8 @@ A fun and interactive bubble shooter game built with pure HTML, CSS, and Vanilla
 
 ## 🚀 Live Demo
 
-[Click here to play the game](#)  
-*(Replace `#` with your game’s deployed URL if available)*
+[Click here to play the game](Your site is live at https://gautambisoi.github.io/Bubble-Game/)  
+
 
 ## 🧩 Features
 
